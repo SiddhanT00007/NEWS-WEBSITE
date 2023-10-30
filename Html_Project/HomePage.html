@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GODI MEDIA</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        label.logo {
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+            position: relative;
+            right: 400px;
+        }
+
+        nav {
+            background-color: blue;
+            height: 120px;
+            width: 100%;
+        }
+
+        nav ul {
+            float: right;
+        }
+
+        aside {
+            background-color: blue;
+            height: 580px;
+            width: 60%;
+        }
+
+        .news {
+            background-color: black;
+            width: 1240px;
+            height: 40px;
+            border: 2px solid white;
+            display: flex;
+            color: white;
+        }
+
+
+        .image1 div div {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            height: 250px;
+            padding:2px 20px;
+        }
+
+        div label {
+            text-align: center;
+        }
+
+        .horizontal li a {
+            color: white;
+            text-decoration: none;
+            border: 2px solid yellow;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: black;
+            box-shadow: 8px 5px 5px yellow inset;
+        }
+
+        .horizontal li {
+            margin: 0px 20px;
+        }
+
+        .horizontal {
+            list-style-type: none;
+            margin: 45px;
+            display: flex;
+        }
+
+        .vertical li a {
+            color: white;
+            text-decoration: none;
+            border: 2px solid yellow;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: black;
+            box-shadow: 8px 5px 5px yellow inset;
+        }
+
+        .vertical li {
+            list-style-type: none;
+            margin: 45px;
+        }
+
+        form {
+            border: 2px solid black;
+            background-color: grey;
+            width: 400px;
+            height: 510px;
+        }
+
+        form label h1 {
+            color: orange;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        input {
+            font-size: 22px;
+        }
+
+        .submit {
+            color: white;
+            background-color: black;
+            width: 15ch;
+            border-radius: 10px;
+            text-align: center;
+            justify-content: center;
+            margin-left: 50px;
+        }
+
+        form div {
+            margin-left: 40px;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul class="horizontal">
+                <label class="logo">GODI NEWS</label>
+                <li><a href="./lokmat.html">LOKMAT</a></li>
+                <li><a href="./samana.html">SAMANA</a></li>
+                <li><a href="./Sakal.html">SAKAL</a></li>
+                <li><a href="./loksatta.html">LOKSATTA</a></li>
+                <li><a href="./pudhari.html">PUDHARI</a></li>
+                <li><a href="./kesari.html">KESARI</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="display: flex;">
+        <aside>
+            <ul class="vertical">
+                <li><a href="./lokmat.html">LOKMAT</a></li>
+                <li><a href="./samana.html">SAMANA</a></li>
+                <li><a href="./Sakal.html">SAKAL</a></li>
+                <li><a href="./loksatta.html">LOKSATTA</a></li>
+                <li><a href="./pudhari.html">PUDHARI</a></li>
+                <li><a href="./kesari.html">KESARI</a></li>
+            </ul>
+        </aside>
+        <div>
+            <div class="news" style="width: 189vh;">
+                <h2 style="background-color: red;color: yellow;width:150px;height: 35px;padding-top: 3px;padding-left: 30px;">NEWS:</h2>
+                <marquee style="display: flex; padding-top: 7px;">
+                    <h2>Welcome to the News Manipulated by Mr.GODI</h2>
+                </marquee>
+            </div>
+           
+                <div style="display: flex;padding: 10px;">
+                    <div class="image1">
+                        <div style="display: flex;">
+                            <div>
+                                <img src="../Images/lokmat.png" height="220" width="260px">
+                                <a href="./lokmat.html">Visit Now</a>
+                            </div>
+                            <div>
+                                <img src="../Images/samanaa.png" height="220" width="260px ">
+                                <a href="./samana.html">Visit Now</a>
+                            </div>
+                            <div>
+                                <img src="../Images/sakal.png" height="220" width="260px">
+                                <a href="./Sakal.html">Visit Now</a>
+                            </div>
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <img src="../Images/loksatta.png" height="220" width="260px">
+                                <a href="./loksatta.html">Visit Now</a>
+                            </div>
+                            <div>
+                                <img src="../Images/pudhari.png" height="220" width="260px">
+                                <a href="./pudhari.html">Visit Now</a>
+                            </div>
+                            <div>
+                                <img src="../Images/kesari.jpeg" height="220" width="260px">
+                                <a href="./kesari.html">Visit Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div style="display: flex;">
+                    <form>
+                        <label>
+                            <h1>JOIN NOW</h1>
+                        </label>
+                        <div>
+                            <label for="name1">Name:</label><br />
+                            <input type="text" id="name1" name="name1" placeholder="Enter your Name">
+                        </div>
+                        <div>
+                            <label for="mail">Mail:</label><br />
+                            <input type="text" id="mail" name="mail" placeholder="Enter your Mail">
+                        </div>
+                        <div>
+                            <label for="tel1">Mobile No:</label><br />
+                            <input type="tel" id="tel1" name="tel1" placeholder="Enter mobile number" >
+                        </div>
+                        <div>
+                            <input type="submit" value="JOIN NOW" class="submit"
+                                style="background-color: black;color: white;">
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
